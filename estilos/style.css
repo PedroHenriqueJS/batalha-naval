@@ -35,7 +35,7 @@ body {
     border: 1px solid white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 350px;
+    width: 300px;
     text-align: center;
     height: 400px;
 }
@@ -115,7 +115,7 @@ input:focus {
 .login-container .signup-link {
     font-size: 16px;
     width: 100%;
-    padding: 7.5px 133px;
+    padding: 7.5px 108px;
     background-color: #214868;
     color: #fff;
     border-radius: 4px;
