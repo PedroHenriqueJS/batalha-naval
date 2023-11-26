@@ -115,7 +115,12 @@ input:focus {
     font-weight: bolder;
 
 }
-
+.login-container button:hover{
+    background-color: #9cb2c5;
+    color: black;
+    transition: 0.5s;
+    border: 1px solid black;
+}
 .login-container .signup-link {
     font-size: 16px;
     width: 100%;
@@ -127,6 +132,12 @@ input:focus {
     text-decoration: none;
     font-weight: bolder;
     border: 1px solid white;
+}
+.login-container .signup-link:hover{
+    background-color: #9cb2c5;
+    color: black;
+    transition: 0.5s;
+    border: 1px solid black;
 }
 
 .login-container .rank {
