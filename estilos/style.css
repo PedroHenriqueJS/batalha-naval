@@ -16,6 +16,10 @@ body {
     
 }
 
+html, body {
+    overflow: hidden;
+}
+
 /* h1 {
     margin-top: -200px;
     color: rgb(38, 87, 160);
