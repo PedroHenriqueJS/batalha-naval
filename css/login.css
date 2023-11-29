@@ -11,7 +11,7 @@ body {
     height: 100vh;
     background-position: center center;
     background-size: cover;
-    background-image: url('../imagens/fundo-login.jpg');
+    background-image: url('../img/fundo-login.jpg');
     background-repeat: no-repeat;
     
 }
@@ -89,9 +89,10 @@ html, body {
     color: white; /* Defina a cor desejada para o ícone */
     font-size: 20px;
 }
-#icon_password_conf{
+
+#icon_email{
     position: absolute;
-    top: 63%;
+    top: 49.5%;
     right: 35px; /* Ajuste conforme necessário para posicionar o ícone */
     transform: translateY(-50%);
     color: white; /* Defina a cor desejada para o ícone */
@@ -121,7 +122,6 @@ input:focus {
     border-radius: 4px;
     cursor: pointer;
     font-weight: bolder;
-    margin-top: 15px;
 
 }
 .login-container button:hover{
@@ -130,9 +130,26 @@ input:focus {
     transition: 0.5s;
     border: 1px solid black;
 }
+.login-container .signup-link {
+    font-size: 16px;
+    width: 100%;
+    padding: 7.5px 108px;
+    background-color: #214868;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+.login-container .signup-link:hover{
+    background-color: #9cb2c5;
+    color: black;
+    transition: 0.5s;
+    border: 1px solid black;
+}
 
-
-.login-container .back {
+.login-container .rank {
     font-size: 16px;
     text-decoration: none;
     color: white;
