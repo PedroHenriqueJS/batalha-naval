@@ -29,3 +29,7 @@ function validatePassword(password, MinDigits) {
     }
     return false;
 }
+
+document.getElementById('btn_cadastro').addEventListener('click', function() {
+    window.location.href = 'cadastro.html';
+});

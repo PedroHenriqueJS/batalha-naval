@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Black Ops One", sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -75,7 +75,7 @@ html, body {
 
 #icon_user {
     position: absolute;
-    top: 36%;
+    top: 34%;
     right: 35px; /* Ajuste conforme necessário para posicionar o ícone */
     transform: translateY(-50%);
     color: white; /* Defina a cor desejada para o ícone */
@@ -83,7 +83,7 @@ html, body {
 }
 #icon_password{
     position: absolute;
-    top: 49.5%;
+    top: 47.5%;
     right: 35px; /* Ajuste conforme necessário para posicionar o ícone */
     transform: translateY(-50%);
     color: white; /* Defina a cor desejada para o ícone */
@@ -111,8 +111,18 @@ input:focus {
 ::placeholder {
     color: white; /* Cor desejada para o placeholder */
 }
+a{
+    text-decoration: none;
+}
+#botao_cadastro{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
 
 .login-container button {
+    font-family: "Black Ops One";
+    text-decoration: none;
     font-size: 16px;
     width: 100%;
     padding: 10px;
@@ -122,31 +132,14 @@ input:focus {
     border-radius: 4px;
     cursor: pointer;
     font-weight: bolder;
-
+    text-shadow: 0px 2px 0px black;
+    box-shadow: 0px 2px 3px black;
 }
 .login-container button:hover{
-    background-color: #9cb2c5;
-    color: black;
-    transition: 0.5s;
-    border: 1px solid black;
-}
-.login-container .signup-link {
-    font-size: 16px;
-    width: 100%;
-    padding: 7.5px 108px;
-    background-color: #214868;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    text-decoration: none;
-    font-weight: bolder;
-    border: 1px solid white;
-}
-.login-container .signup-link:hover{
-    background-color: #9cb2c5;
-    color: black;
-    transition: 0.5s;
-    border: 1px solid black;
+    background-color:  #395572;
+    transition: 0.3s;
+    text-shadow: none;
+    box-shadow: none;
 }
 
 .login-container .rank {
@@ -156,5 +149,11 @@ input:focus {
     text-shadow: 1px 2px 1px black;
     width: 100%;
     font-weight: bolder;
+    
+}
+
+.login-container .rank:hover {
+    color: #45688c;
+    transition: 0.3s;
     
 }
